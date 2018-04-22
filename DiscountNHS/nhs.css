@@ -1,0 +1,441 @@
+
+
+img {
+	border: 0px;
+}
+
+a {
+	cursor: pointer;
+	color: black;
+	text-decoration: underline;
+}
+
+a:visited {
+	color: #000;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #ffb33f;
+	text-decoration: none;
+}
+
+h1 {
+	font-size: 30px;
+}
+
+h2 {
+	color: #05004c;
+	font-size: 20px;
+}
+
+h3 {
+	color: #05004c;
+	font-size: 18px;
+}
+
+h4 {
+	font-size: 15px;
+	font-style: italic;
+	font-variant: normal;
+}
+
+body {
+	color: #2d2d2d;
+	background-repeat: repeat-x;
+	background-image: url(./images/bg.jpg);
+	background-color: #c7fff9;
+	padding: 0px;
+	font: 14px/1.5em Arial, "Helvetica Neue", Helvetica, Geneva, sans-serif;
+}
+
+#container {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 100px;
+	width: 980px;
+	padding: 0px;
+	background: white url(./images/page.jpg) repeat-x;
+	
+	/* Drop Shadow Effects */
+
+	box-shadow: 4px 4px 3px #000;
+
+	/* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";
+	
+	/*For IE 5.5 - 7*/ 
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');
+		
+}
+
+#header {
+	background-repeat: repeat-x;
+	height: 100px;
+	padding: 10px;
+	background-color: #00a4f8;
+	color: white;
+	background-image: url(./images/header.jpg);
+	border: 1px solid white;
+	border-bottom-style: none;
+	border-right-style: none;
+}
+
+#title {
+	height: 100px;
+	width: 600px;
+	padding: 0px;
+	float: left;
+}
+
+#main_ad {
+	margin-top: -5px;
+	margin-right: -20px;
+	width: 300px;
+	padding: 5px;
+	float: right;
+}
+
+#info {
+	padding: 10px;
+}
+
+#footer {
+	min-height: 100px;
+	margin-right: auto;
+	margin-left: auto;
+	background-repeat: repeat;
+	text-align: right;
+	clear: both;
+	color: white;
+	padding: 10px;
+	background-image: url(./images/footer.jpg);
+	opacity: 0.8;
+	filter: alpha(opacity=80);  /*For IE8 and earlier*/ 
+}
+
+#footer a {
+	color: white;
+	text-decoration: none;
+}
+
+#footer a:hover {
+	color: #ffb33f;
+	text-decoration: none;
+}
+
+#little-nav {
+	padding: 5px;
+	float: left;
+}
+
+#copy {
+	padding: 5px;
+	float: right;
+}
+
+#hidden-footer{
+	clear: both;
+}
+#footer-img {
+	position: relative;
+	margin-top: -100px;
+	margin-bottom: -10px;
+	margin-left: -10px;
+	padding: 0px;
+	clear: both;
+	height: 115px;
+	z-index: -1;
+	background: url(./images/bg-footer.png) repeat-x;
+}
+
+#account {
+	background-color: #01b3fd;
+	text-align: right;
+}
+
+#account a {
+	color: white;
+	text-decoration: none;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+#account a:hover {
+	color: #ffb33f;
+	right: 5px;
+	left: 5px;
+}
+
+#nav {
+	background-repeat: repeat-x;
+	background-image: url(./images/nav.jpg);
+	text-align: left;
+	padding: 10px;
+	color: white;
+	background-color: #007ec3;
+	border-left: 1px solid white;
+}
+
+#nav a {
+	margin-left: -6px;
+	border-right-width: 1px;
+	border-right-color: #0082ff;
+	border-right-style: solid;
+	text-align: left;
+	padding: 10px;
+	color: white;
+	text-decoration: none;
+}
+
+#nav a:visited {
+	color: white;
+	padding: 10px;
+	text-decoration: none;
+}
+
+#nav a:hover {
+	padding: 10px;
+	background-color: #ffb33f;
+}
+
+#admin-nav {
+	border-left-color: white;
+	border-left-width: 1px;
+	border-left-style: solid;
+	margin-top: 1px;
+	padding: 10px;
+	background-color: #ffb443;
+	color: black;
+}
+
+#admin-nav a {
+	padding: 8px;
+	color: black;
+	text-decoration: none;
+}
+
+#admin-nav a:hover {
+	color: #ff241a;
+}
+
+#map {
+	height: 400px;
+	width: 640px;
+	border: 2px solid #0087d1;
+}
+
+#message {
+	margin: 0 auto;
+	width: 942px;
+	padding: 5px;
+	text-align: center;
+	margin-bottom: 25px;
+	background-color: #000;
+	color: white;
+}
+
+#content {
+	padding: 10px;
+}
+
+
+#search {
+	/* sammy's old code
+	text-align: right;
+	margin-top: -35px;
+	margin-right: 5px;
+	color: white;
+	padding: 4px;
+	font-size: 13px;*/
+
+	background-color: #0db2ff;
+	                   
+	                  
+	                  
+	                  
+	             
+	             
+	                  
+
+	padding: 3px;
+	margin-top: -39px;
+	float: right;
+	position: relative;
+	bottom: 33px;
+	right: 5px;
+	color: white;
+}
+#search input{
+	border-width: 2px;
+	border-color: #ffcc00;
+	border-style: solid;
+	width: 280px;
+}
+#search .watermark {
+	cursor: text;
+	color: #5b5b5b;
+	font-style: italic;
+	position: absolute;
+	left: 6px;
+	font-size: 12px;
+	padding-top: 3px;
+}
+
+.search-nav {
+	padding-left: 20px;
+	text-align: right;
+}
+
+#news {
+	padding-left: 20px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	width: 400px;
+	float: left;
+}
+
+#news a {
+	text-decoration: none;
+}
+
+#col-1 {
+	width: 600px;
+	padding: 10px 10px 10px 20px;
+	float: left;
+	margin-bottom: 25px;
+}
+#col-1 .title {
+	color: #05004C;
+	font-family: Arial;
+	font-size: 16pt;
+	font-weight: bold;
+	position: relative;
+	top: 20px;
+}
+
+#col-2 {
+	padding: 10px;
+	background-color: #0e86d1;
+	width: 280px;
+	float: right;
+}
+
+#col-2-1 {
+	width: 450px;
+	padding: 10px 10px 10px 20px;
+	float: left;
+	margin-bottom: 25px;
+}
+
+#col-2-2 {
+	margin-left: 20px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	width: 430px;
+	float: right;
+}
+
+#edit-logo {
+	background-color: #c6fcfe;
+}
+
+#edit-station {
+	background-color: #ffe4d4;
+}
+
+#edit-type {
+	background-color: #ebeafc;
+}
+
+#edit-county {
+	background-color: #d1fce3;
+}
+
+#edit-offer {
+	background-color: #f4fdd8;
+}
+
+/*<Login Page>*/
+
+.loginDiv {
+	margin: 0 auto;
+	margin-bottom: 40px;
+	width: 300px;
+	border: 1px lightBlue solid;
+	padding: 10px;
+}
+
+.ac_results {
+	padding: 0px;
+	border: 1px solid black;
+	background-color: white;
+	overflow: hidden;
+	z-index: 99999;
+}
+
+.ac_results ul {
+	width: 100%;
+	list-style-position: outside;
+	list-style: none;
+	padding: 0;
+	margin: 0 20px 0 0;
+}
+
+.ac_results li img {
+	position: relative;
+	top: 2px;
+}
+
+.ac_results li {
+	margin: 0px;
+	padding: 2px 5px;
+	cursor: default;
+	display: block;
+	
+	/* if width will be 100% horizontal scrollbar will apear 
+	when scroll mode will be used
+	*/
+	/*width: 100%;
+	*/
+	font: menu;
+	font-size: 12px;
+	/* 
+	it is very important, if line-height not setted or setted 
+	in relative units scroll will be broken in firefox
+	*/
+	line-height: 16px;
+	overflow: hidden;
+}
+
+.ac_loading {
+	
+}
+
+.ac_odd {
+	background-color: #eee;
+}
+
+.ac_over {
+	background-color: #FDDDAD;
+	color: #111;
+}
+
+span.errMsg {
+	font-size: 12px;
+	color: #E32;
+	font-weight: bold;
+}
+
+/*</Edit Business Records>*/
+
+table.types{
+	border-collapse:collapse;
+}
+table.types td{
+	padding: 10px;
+}

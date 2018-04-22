@@ -1,0 +1,2 @@
+<div id="admin-nav"> <a href="user-edit.aspx">Edit Users</a> <a href="./station-edit.aspx">Edit Stations</a> <a href="./business-edit.aspx">Edit Businesses</a> <a href="./type-edit.aspx">Edit Business Types</a> <a href="./offer-edit.aspx">Edit Offers</a> <a href="./news-edit.aspx">Update Newsletters</a>
+      </div>
